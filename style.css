@@ -14,6 +14,7 @@ body {
 .banner-container {
   max-width: 1320px;
   min-height: 600px;
+  border-radius: 15px;
   margin: 0 auto;
   margin-top: 20px;
   background-image: url("/images/banner_image.png");
@@ -100,6 +101,7 @@ h1 {
   width: 1320px;
   height: 600px;
   margin: 0 auto;
+  border-radius: 15px;
   display: flex;
   background-image: url("./images/vectorrr.png");
   background-position: center;
@@ -154,3 +156,51 @@ h1 {
   margin-top: 30px;
 }
 /* midnight section style ends here */
+
+/* location and time section style starts here */
+.location-time-container {
+  width: 1320px;
+  height: 482px;
+  border-radius: 16px;
+  margin: 0 auto;
+  margin-top: 120px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.location-time-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.location-time-content h3 {
+  font-size: 25px;
+}
+
+.red-text {
+  color: red;
+}
+
+#join-now-btn {
+  background-color: red;
+  margin-top: 50px;
+  text-transform: uppercase;
+  width: 167px;
+  height: 56px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+/* location and time section style ends here */
